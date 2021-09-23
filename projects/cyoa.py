@@ -40,6 +40,7 @@ def greet() -> None:
 
 
 def guess_number(points: int) -> int:
+    """This is a game within game."""
     rand: int = randint(1, 6)
     user_guess: int
     global player
@@ -57,6 +58,7 @@ def guess_number(points: int) -> int:
 
 
 def getChoice():
+    """This is what player chooses."""
     print(f"Hey {player}, please choose your own adventure! ")
     print('Please choose one from the follows:')
     print('[play]')
@@ -67,6 +69,7 @@ def getChoice():
 
 
 def choice_play(points: int) -> int:
+    """This is the play time that the player chooses."""
     global player
     play_time = int(input(f"Hey {player},please enter the play time(hour):"))
     if play_time < 4:
@@ -79,6 +82,7 @@ def choice_play(points: int) -> int:
 
 
 def choice_feed() -> None:
+    """This is what player will choose to feed."""
     global points
     global player
     while True:
