@@ -98,7 +98,6 @@ def choice_feed() -> None:
             continue
         break
     print("Yummy~")
-    return None
 
 
 if __name__ == "__main__":
