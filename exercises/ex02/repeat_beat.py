@@ -1,10 +1,6 @@
 """Repeating a beat in a loop."""
 
 __author__ = "730529273"
-
-from typing import final
-
-
 i: int = 0
 repeat_beat: str = input("What beat do you want to repeat? ")
 repeated_times: int = int(input("How many times do you want to repeat it? "))

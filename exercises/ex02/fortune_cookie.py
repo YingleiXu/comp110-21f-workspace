@@ -15,11 +15,13 @@ from random import randint
 print("Your fortune cookie says...")
 randomized_result: int = randint(1, 4)
 if randomized_result == 1:
-    print("404 not found.") 
+    print("404 not found.")
 else:
     if randomized_result == 2:
-        print("A beautiful, smart, and loving person will be coming into your life.")
+        print("A , smart, and loving person will be coming into your life.")
     else:
         if randomized_result == 3:
-            print("Soon life will become more interesting.")
+            print("What a good life.")
+        else:
+            print("Don't worry!")
 print("Now, go spread positive vibes!")

@@ -1,0 +1,1 @@
+print(type(names[0]))
