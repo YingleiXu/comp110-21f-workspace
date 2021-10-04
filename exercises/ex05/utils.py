@@ -18,7 +18,7 @@ def only_evens(xs: list[int]) -> list[int]:
     return xs_even
 
 
-def sub(a: list[int], b: int, c: int) -> list[int]:
+def sub(a_list: list[int], b: int, c: int) -> list[int]:
     """Generate a list which is a subset of the given list, between the specified start index and the end index - 1."""
     list_returned: list[int] = []
     while len(a_list) == 0:
@@ -45,8 +45,7 @@ def concat(list_1: list[int], list_2: list[int]) -> list[int]:
 print(only_evens([1, 2, 3]))
 print(only_evens([1, 5, 3]))
 print(only_evens([4, 4, 4]))
-a_list: list[int] = [1, 2, 3, 4]
-print(sub(a_list, -1, 5))
+print(sub([10, 20, 30, 40], 1, 2))
 number: int
 list_input_1: list[int] = []
 list_input_2: list[int] = [5, 6, 7, 8]
